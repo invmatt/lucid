@@ -12,9 +12,33 @@ $global-font-family:  sans-serif!default;
 
 // ------ FONT SIZES ------ //
 
+<<<<<<< HEAD
 $global-h1: 				  36px!default;
 $global-h2: 				  32px!default;
 $global-h3: 				  24px!default;
 $global-h4: 				  20px!default;
 $global-h5: 				  16px!default;
 $global-h6: 				  14px!default;
+=======
+$global-h1: 				36px!default;
+$global-h2: 				32px!default;
+$global-h3: 				24px!default;
+$global-h4: 				20px!default;
+$global-h5: 				16px!default;
+$global-h6: 				14px!default;
+
+// ------ SIZES ------ //
+
+// General
+
+// Responsive
+
+$res-large:				62.5em!default;
+$res-medium:			60em!default;
+$res-small:				40.625em!default;
+
+// ------ CONTAINERS ------ //
+
+$container-width:		1020!default;
+$num-columns:			9!default;
+$column-width:			76!default;

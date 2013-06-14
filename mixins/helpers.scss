@@ -1,0 +1,67 @@
+/* ====== HELPERS ====== */
+
+@mixin gradient($startColor, $endColor) {
+	background: $startColor;
+	background: -moz-linear-gradient(top, $startColor 0%, $endColor 100%) repeat-y;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$startColor), color-stop(100%,$endColor)) repeat-y;
+	background: -webkit-linear-gradient(top, $startColor 0%,$endColor 100%) repeat-y;
+	background: -o-linear-gradient(top, $startColor 0%,$endColor 100%) repeat-y;
+	background: -ms-linear-gradient(top, $startColor 0%,$endColor 100%) repeat-y;
+	background: linear-gradient(to bottom, $startColor 0%,$endColor 100%) repeat-y;
+}
+
+@mixin prefix($name, $value) {
+	-webkit-#{$name}: $value;
+	-moz-#{$name}: $value;
+	-ms-#{$name}: $value;
+	-o-#{$name}: $value;
+	#{$name}: $value;
+}
+
+@mixin breakpoint($point) {
+	@if $point == large {
+		@media (min-width: $res-large) { @content; }
+	}
+	@else if $point == medium {
+		@media (max-width: $res-medium) { @content; }
+	}
+	@else if $point == small {
+		@media (max-width: $res-small) { @content; }
+	}
+	@else if $point == landscape {
+		@media (orientation : landscape) { @content; }
+	}
+	@else if $point == portrait {
+		@media (orientation : portrait) { @content; }
+	}
+}
+
+@mixin prefix($name, $value) {
+	-webkit-#{$name}: $value;
+	-moz-#{$name}: $value;
+	-ms-#{$name}: $value;
+	-o-#{$name}: $value;
+	#{$name}: $value;
+}
+
+// Usage: pixel size / base size (16px)
+@mixin font-size($sizeValue: 1){
+  font-size: ($sizeValue * 16) + px;
+  font-size: $sizeValue + rem;
+}
+
+@mixin hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+
+		.browserIe7 & {
+			border: 0;
+			font: 0/0 a;
+			text-shadow: none;
+			color: transparent;
+			text-indent: 0;
+			white-space: normal;
+			overflow: auto;
+		}
+}
