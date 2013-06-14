@@ -19,6 +19,7 @@ sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
 <pre>
 | lucid.scss
 | shame.scss
+| custom.scss
 
   | Additional
     | buttons.scss
