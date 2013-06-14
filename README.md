@@ -8,6 +8,12 @@ A SASS CSS Framework without any additional styling
 sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
 </pre>
 
+<h5>Notes:</h5>
+<ul>
+<li>Lucid doesn't include a reset</li>
+<li>Lucid is bloat free with no unneeded styling</li>
+</ul>
+
 <h5>File Structure</h5>
 <pre>
 | lucid.scss
