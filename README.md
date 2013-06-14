@@ -12,6 +12,7 @@ sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
 <ul>
 <li>Lucid doesn't include a reset</li>
 <li>Lucid is bloat free with no unneeded styling</li>
+<li>Current version can be found under Base > Defaults</li>
 </ul>
 
 <h5>File Structure</h5>
