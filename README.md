@@ -40,3 +40,6 @@ sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
     | functions.scss
     | helpers.scss
 </pre>
+
+<h5>Updating Lucid</h5>
+<p>Replace every file other than custom.scss, shame.scss and overrides.scss.</p>
