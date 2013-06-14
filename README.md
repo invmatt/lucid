@@ -5,7 +5,7 @@ A SASS CSS Framework without any additional styling
 <h5>Compiling the SASS/SCSS</h5>
 <pre>
 # Example (project styles directory)
-sass --watch _sass/lucid.scss:css/[desired-css-file-name].css
+sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
 </pre>
 
 <h5>File Structure</h5>
