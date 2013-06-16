@@ -5,7 +5,7 @@ A SASS Framework without any additional styling. Lucid features a responsive gri
 <h5>Compiling the SASS/SCSS</h5>
 <pre>
 # Example (project styles directory)
-sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
+sass --watch lucid/lucid.scss/[desired-css-file-name].css
 </pre>
 
 <h5>Notes:</h5>
@@ -19,7 +19,6 @@ sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
 <pre>
 | lucid.scss
 | shame.scss
-| custom.scss
 
   | Additional
     | buttons.scss
@@ -30,6 +29,7 @@ sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
     
   | base
     | containers.scss
+	| custom.scss
     | defaults.scss
     | grid.scss
     | overrides.scss
