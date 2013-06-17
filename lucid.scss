@@ -3,6 +3,12 @@ LUCID.SCSS (1)
 A SASS Framework without any additional styling
 */
 
+// Mixins and general utilities
+@import "mixins/core";
+@import "mixins/addons";
+@import "mixins/helpers";
+@import "mixins/functions";
+
 // Base
 @import "base/defaults";
 @import "base/grid";
@@ -16,12 +22,6 @@ A SASS Framework without any additional styling
 @import "additional/tables";
 @import "additional/menus";
 @import "additional/buttons";
-
-// Mixins
-@import "mixins/core";
-@import "mixins/addons";
-@import "mixins/helpers";
-@import "mixins/functions";
 
 // Extras
 @import "shame";
