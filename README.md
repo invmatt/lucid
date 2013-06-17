@@ -2,6 +2,9 @@
 
 A SASS Framework without any additional styling. Lucid features a responsive grid, useful mixins and a collection of base styles for buttons, forms, menus and tables.
 
+<h5>Download the latest version</h5>
+<a href="https://github.com/invmatt/lucid/archive/master.zip" alt="Download Lucid">Download Lucid</a>
+
 <h5>Compiling the SASS/SCSS</h5>
 <pre>
 # Example (project styles directory)
