@@ -13,8 +13,7 @@ $global-font-family:	sans-serif!default;
 
 // ------ FONT SIZES ------ //
 
-// These are based on REM values: pixel size / base size
-
+// These are based on REM values: pixel size / $global-font-size
 $global-h1:				2.25!default;
 $global-h2:				2!default;
 $global-h3:				1.5!default;
