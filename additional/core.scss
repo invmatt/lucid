@@ -1,3 +1,7 @@
+// ------ RESET ------ //
+
+// Reset of choice should be placed here. Lucid recommends http://necolas.github.io/normalize.css
+
 // ------ HEADINGS ------ //
 
 h1 {
@@ -31,4 +35,8 @@ li{
     > ol{
          margin-bottom:0;
      }
+}
+
+body {
+	font-family: $gobal-font-family;
 }
