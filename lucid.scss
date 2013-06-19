@@ -9,19 +9,19 @@ A SASS Framework without any additional styling
 @import "mixins/helpers";
 @import "mixins/functions";
 
-// Base
-@import "base/defaults";
-@import "base/grid";
-@import "base/containers";
-@import "base/overrides";
-@import "base/custom";
-
 // additionals
 @import "additional/core";
 @import "additional/forms";
 @import "additional/tables";
 @import "additional/menus";
 @import "additional/buttons";
+
+// Base
+@import "base/defaults";
+@import "base/grid";
+@import "base/containers";
+@import "base/overrides";
+@import "base/custom";
 
 // Extras
 @import "shame";
