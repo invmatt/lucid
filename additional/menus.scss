@@ -1,0 +1,15 @@
+// Ludid SASS Framework
+
+// ---- $NAVIGATION ----
+
+.navbar {
+  
+  width: 100%;
+  min-height: 60px;
+  margin-bottom: 20px;
+  
+    @include breakpoint(small) {
+      min-height: 30px;
+    }
+  
+}
