@@ -40,3 +40,15 @@ li{
 body {
 	font-family: $gobal-font-family;
 }
+
+// ------ LINKS ------ //
+
+a {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover {
+		color: lighten($link-color, 10%);
+		text-decoration: underline;	
+	}
+}
