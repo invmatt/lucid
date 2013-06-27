@@ -22,7 +22,6 @@ sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
 <h5>File Structure</h5>
 <pre>
 | lucid.scss
-| _shame.scss
 
   | Additional
     | _buttons.scss
@@ -30,6 +29,7 @@ sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
     | _forms.scss
     | _menus.scss
     | _tables.scss
+    | _shame.scss
     
   | base
     | _containers.scss
