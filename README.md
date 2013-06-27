@@ -9,7 +9,7 @@ A SASS Framework without any additional styling. Lucid features a responsive gri
 <h5>Compiling the SASS/SCSS</h5>
 <pre>
 # Example (project styles directory)
-sass --watch lucid/lucid.scss/[desired-css-file-name].css
+sass --watch lucid/lucid.scss:css/[desired-css-file-name].css
 </pre>
 
 <h5>Notes:</h5>
@@ -22,28 +22,25 @@ sass --watch lucid/lucid.scss/[desired-css-file-name].css
 <h5>File Structure</h5>
 <pre>
 | lucid.scss
-| shame.scss
+| _shame.scss
 
   | Additional
-    | buttons.scss
-    | core.scss
-    | forms.scss
-    | menus.scss
-    | tables.scss
+    | _buttons.scss
+    | _core.scss
+    | _forms.scss
+    | _menus.scss
+    | _tables.scss
     
   | base
-    | containers.scss
-	| custom.scss
-    | defaults.scss
-    | grid.scss
-    | overrides.scss
+    | _containers.scss
+	| _custom.scss
+    | _defaults.scss
+    | _grid.scss
+    | _overrides.scss
     
   | mixins
-    | addons.scss
-    | core.scss
-    | functions.scss
-    | helpers.scss
+    | _addons.scss
+    | _core.scss
+    | _functions.scss
+    | _helpers.scss
 </pre>
-
-<h5>Updating Lucid</h5>
-<p>Replace every file other than custom.scss, shame.scss and overrides.scss.</p>

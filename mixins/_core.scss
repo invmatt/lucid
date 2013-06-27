@@ -1,3 +1,9 @@
+// CSS Reset
+@mixin reset() {
+	// -- Add your CSS reset here
+}
+
+// Border Radius
 @mixin border-radius($radius) {
 
 -webkit-border-radius: $radius;
