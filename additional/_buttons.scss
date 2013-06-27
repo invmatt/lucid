@@ -4,8 +4,8 @@
 	border: none;
 	padding: 10px 22px;
 	display: inline-block;
-	@include border-radius(5px, 5px);
-	@include font-size: $global-font-size;
+	@include border-radius(5px);
+	@include font-size($global-font-size);
 }
 
 .btn {
