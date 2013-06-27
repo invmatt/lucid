@@ -20,6 +20,12 @@ $body-gutter:     20px!default;
 
 $gobal-font-family:   Helvetica,Arial,sans-serif!default;
 
+$georgia: Georgia, Cambria, "Times New Roman", Times, serif;
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$lucida-grande: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+$monospace: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+$verdana: Verdana, Geneva, sans-serif;
+
 // These are based on REM values: pixel size / $global-font-size
 $global-h1:				2.25!default;
 $global-h2:				2!default;
@@ -29,8 +35,6 @@ $global-h5:				1!default;
 $global-h6:				0.875!default;
 
 // ------ SIZES ------ //
-
-// General
 
 // Responsive
 
@@ -48,3 +52,26 @@ $column-width:			76!default;
 
 $border-color:  #ccc!default;  
 $link-color: 	#5E5E5E!default;
+
+// Some flat UI colours
+
+$turquoise: 	#1abc9c!default;
+$emerland: 		#2ecc71!default;
+$peterriver: 	#3498db!default;
+$amethyst: 		#9b59b6!default;
+$wetasphalt: 	#34495e!default;
+$greensea: 		#16a085!default;
+$nephritis: 	#27ae60!default;
+$belizehole: 	#2980b9!default;
+$wisteria: 		#8e44ad!default;
+$midnightblue: 	#2c3e50!default;
+$sunflower: 	#f1c40f!default;
+$carrot: 		#e67e22!default;
+$alizarin: 		#e74c3c!default;
+$clouds: 		#ecf0f1!default;
+$concrete: 		#95a5a6!default;
+$orange: 		#f39c12!default;
+$pumpkin: 		#d35400!default;
+$pomegranate: 	#c0392b!default;
+$silver: 		#bdc3c7!default;
+$asbestos: 		#7f8c8d!default;
