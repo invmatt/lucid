@@ -20,11 +20,11 @@ $body-gutter:     20px!default;
 
 $gobal-font-family:   Helvetica,Arial,sans-serif!default;
 
-$georgia: Georgia, Cambria, "Times New Roman", Times, serif;
-$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$lucida-grande: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-$monospace: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
-$verdana: Verdana, Geneva, sans-serif;
+$georgia:             Georgia, Cambria, "Times New Roman", Times, serif!default;
+$helvetica:           "Helvetica Neue", Helvetica, Arial, sans-serif!default;
+$lucida-grande:       "Lucida Grande", Tahoma, Verdana, Arial, sans-serif!default;
+$monospace:           "Bitstream Vera Sans Mono", Consolas, Courier, monospace!default;
+$verdana:             Verdana, Geneva, sans-serif;
 
 // These are based on REM values: pixel size / $global-font-size
 $global-h1:				2.25!default;
@@ -33,6 +33,10 @@ $global-h3:				1.5!default;
 $global-h4:				1.25!default;
 $global-h5:				1!default;
 $global-h6:				0.875!default;
+
+// ------ DEFAULT PATHS ------ //
+
+$assetpath =      /images!default;
 
 // ------ SIZES ------ //
 
