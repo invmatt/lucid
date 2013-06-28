@@ -1,12 +1,7 @@
 // Clearfix
 
-@mixin clearfix() {
-  *zoom:1;
-  &:before, &:after {
-    content: "";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+// Usage background: bg-img('image_name.jpg');
+// Override the $assetpath in _overrides.scss
+@function bg-img ($bgimage) {
+	@return url(#{$assetpath}/#{$bgimage});
 }
