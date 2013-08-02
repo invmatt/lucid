@@ -4,6 +4,13 @@ Redefine these in overrides.scss
 
 $lucid-version:       1;
 
+// ------ LEGACY SUPPORT ------ //
+
+/*
+  * Add support for IE7. This is not guaranteed to work, however it should fix some common issues.
+*/
+$legacyIE:            false!default;
+
 // ------ BASE ------ //
 
 $global-font-size:		16px!default;
