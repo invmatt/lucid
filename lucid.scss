@@ -1,27 +1,33 @@
-/*
-LUCID.SCSS (1)
-A SASS Framework without any additional styling
-*/
+/**
+ * CSS Framework (github.com/invmatt)
+ * 0.1.0
+ */
 
-// Mixins and general utilities
-@import "mixins/core";
-@import "mixins/addons";
-@import "mixins/helpers";
-@import "mixins/functions";
+// DEFAULT
+@import "vars";
+@import "overrides";
 
-// Base
-@import "base/defaults";
-@import "base/grid";
-@import "base/containers";
-@import "base/overrides";
-@import "base/custom";
+// HELPERS
+@import "helpers/mixins";
+@import "helpers/reset";
+@import "helpers/spacing-helpers";
+@import "helpers/layout-helpers";
+@import "helpers/block-helpers";
+@import "helpers/sprite";
 
-// additionals
-@import "additional/core";
-@import "additional/forms";
-@import "additional/tables";
-@import "additional/menus";
-@import "additional/buttons";
+// MODULES
+@import "modules/grids";
+@import "modules/tables";
+@import "modules/forms";
+@import "modules/icons";
+@import "modules/messages";
+@import "modules/layout";
+@import "modules/flexbox";
+@import "modules/typography";
 
-// Extras
-@import "additional/shame";
+// PARTIALS
+@import "partials/iefix";
+@import "partials/print";
+
+// UI
+@import "ui";
