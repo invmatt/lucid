@@ -1,0 +1,44 @@
+// BOOLEANS
+$print-stylesheet:                true                !default;
+
+$enable-block-helpers:            true                !default;
+$enable-spacing-helpers:          true                !default;
+
+$legacy-support-for-ie:           true                !default;
+$legacy-support-for-mozilla:      false               !default;
+
+$enable-icon-classes:             true                !default;
+$enable-sprites:                  false               !default;
+
+// RESET
+$h1_margin:                       0.67em 0            !default;
+$h2_margin:                       0.83em 0            !default;
+$h3_margin:                       1em 0               !default;
+$h4_margin:                       1.33em 0            !default;
+$h5_margin:                       1.67em 0            !default;
+$h6_margin:                       2.33em 0            !default;
+
+$background:                      #fff                !default;
+$color:                           #000                !default;
+
+
+// GRID
+$container:                       1120px              !default;
+$gutter:                          0px                 !default;
+
+$responsive:                      true                !default;
+$mobile-first:                    true                !default;
+$use-silent-classes:              false               !default;
+
+$push:                            true                !default;
+$pull:                            true                !default;
+
+$use-markup-fix:                  false               !default;
+
+
+//TYPOGRAPHY
+$base-font-size:                  16                  !default;
+$headings-size:                   32 28 24 20 18 16   !default;
+
+$monospace-font-stack:            "Consolas", "Courier", monospace;
+$regular-font-stack:              Helvetica, Arial, sans-serif;

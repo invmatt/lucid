@@ -1,0 +1,11 @@
+//@import "img/sprites/*.png";
+
+@if $enable-sprites == true {
+
+	/**
+	 * Requires Compass
+	 * Generates sprites located within /img/sprites
+	 */
+	@include all-sprites-sprites(true);
+
+}
